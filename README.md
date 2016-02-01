@@ -9,22 +9,17 @@ Node.js 개인 연습장 입니다.
 
 ---
 
-### 스크립트
-* []()
-* []()
-* []()
-
-
 ### Express
-* Node 개발프레임워크 
+Node 개발프레임워크 
 
 #### Express 설치
 ```
 npm install express --save
 ```
+---
 
 ### Nodemon
-* node 데몬 - 소스를 수정함과 동시에 리스타트를 해준다.
+node 데몬 - 소스를 수정함과 동시에 리스타트를 해준다.
 
 #### nodemon 설치
 ```
@@ -41,8 +36,11 @@ $ nodemon
 Ctrl + C
 ```
 
-### 코드
-#### Node 버전 확인
+---
+
+### Node 코드
+
+#### 버전 확인
 ```
 node -v
 npm -v
