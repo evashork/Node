@@ -52,3 +52,19 @@ node 설치하는 명령어, package.json을 생성한다
 npm init
 ```
 
+#### 노드 기본 설정
+```
+var express = require('express');
+var path = require('path');
+var app = express();
+
+// 경로를 설정해준다 ex) /css 
+app.use(express.static(path.join(__dirname,'public')));
+console.log(__dirname);
+
+app.listen(3000,function(){
+  console.log('Sever On!');
+});
+
+```
+
