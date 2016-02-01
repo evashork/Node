@@ -2,9 +2,9 @@
 Node.js 개인 연습장 입니다.
 
 ### 참고링크
-*[]()
-*[]()
-*[]()
+*[Node.js 강좌](http://m.blog.naver.com/azure0777/220461355508)
+*[Node.js 설치](http://m.blog.naver.com/azure0777/220464281360)
+*[Node.js](https://nodejs.org/en/)
 *[]()
 
 ---
