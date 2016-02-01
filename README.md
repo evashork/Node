@@ -17,6 +17,7 @@ Node.js 개인 연습장 입니다.
 
 ### Express
 * Node 개발프레임워크 
+
 #### Express 설치
 ```
 npm install express --save
@@ -24,17 +25,21 @@ npm install express --save
 
 ### Nodemon
 * node 데몬 - 소스를 수정함과 동시에 리스타트를 해준다.
+
 #### nodemon 설치
 ```
 $ npm install nodemon -g	
 ```
+
 #### nodemon 실행
 ```
 $ nodemon
 ```
-#### nodemon 끄기
-Ctrl + C
 
+#### nodemon 끄기
+```
+Ctrl + C
+```
 
 ### 코드
 #### Node 버전 확인
@@ -42,6 +47,7 @@ Ctrl + C
 node -v
 npm -v
 ```
+
 #### npm init
 node 설치하는 명령어, package.json을 생성한다
 ```
