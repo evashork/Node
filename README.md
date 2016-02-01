@@ -1,7 +1,7 @@
-## Node
+# Node
 Node.js 개인 연습장 입니다.
 
-### 참고링크
+## 참고링크
 * [Node.js 강좌](http://m.blog.naver.com/azure0777/220461355508)
 * [Node.js 설치](http://m.blog.naver.com/azure0777/220464281360)
 * [Node.js](https://nodejs.org/en/)
@@ -9,7 +9,7 @@ Node.js 개인 연습장 입니다.
 
 ---
 
-### Express
+## Express
 Node 개발프레임워크 
 
 #### Express 설치
@@ -18,7 +18,7 @@ npm install express --save
 ```
 ---
 
-### Nodemon
+## Nodemon
 node 데몬 - 소스를 수정함과 동시에 리스타트를 해준다.
 
 #### nodemon 설치
@@ -38,7 +38,7 @@ Ctrl + C
 
 ---
 
-### Node 코드
+## Node 코드
 
 #### 버전 확인
 ```
