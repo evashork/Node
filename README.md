@@ -16,7 +16,24 @@ Node.js 개인 연습장 입니다.
 
 
 ### Express
-* Ctrl + Shift 를 누르면 면과 면사이를 붙일 수 있다.
+* Node 개발프레임워크 
+#### Express 설치
+```
+npm install express --save
+```
+
+### Nodemon
+* node 데몬 - 소스를 수정함과 동시에 리스타트를 해준다.
+#### nodemon 설치
+```
+$ npm install nodemon -g	
+```
+#### nodemon 실행
+```
+$ nodemon
+```
+#### nodemon 끄기
+Ctrl + C
 
 
 ### 코드
@@ -25,3 +42,9 @@ Node.js 개인 연습장 입니다.
 node -v
 npm -v
 ```
+#### npm init
+node 설치하는 명령어, package.json을 생성한다
+```
+npm init
+```
+
