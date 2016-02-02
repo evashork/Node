@@ -6,6 +6,8 @@ Node.js 개인 연습장 입니다.
 * [Node.js 설치](http://m.blog.naver.com/azure0777/220464281360)
 * [Node.js](https://nodejs.org/en/)
 * [node-js-배포-및-운영시-참고사항](http://avilos.codes/server/nodejs/node-js-%EB%B0%B0%ED%8F%AC-%EB%B0%8F-%EC%9A%B4%EC%98%81%EC%8B%9C-%EC%B0%B8%EA%B3%A0%EC%82%AC%ED%95%AD/)
+* [static 정적폴더 설정](http://m.blog.naver.com/azure0777/220469049820)
+* [dynamic 동적폴더 설정](http://m.blog.naver.com/azure0777/220475344428)
 
 ---
 
@@ -52,7 +54,7 @@ node 설치하는 명령어, package.json을 생성한다
 npm init
 ```
 
-#### 노드 기본 설정
+#### static 정적폴더 설정
 ```
 var express = require('express');
 var path = require('path');
@@ -60,7 +62,21 @@ var app = express();
 
 // 경로를 설정해준다 ex) /css 
 app.use(express.static(path.join(__dirname,'public')));
-console.log(__dirname);
+
+app.listen(3000,function(){
+  console.log('Sever On!');
+});
+
+```
+
+#### dynamic 동적폴더 설정
+```
+var express = require('express');
+var path = require('path');
+var app = express();
+
+// 경로를 설정해준다 ex) /css 
+app.use(express.static(path.join(__dirname,'public')));
 
 app.listen(3000,function(){
   console.log('Sever On!');
