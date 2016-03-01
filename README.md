@@ -15,6 +15,19 @@ Node.js 개인 연습장 입니다.
 
 ---
 
+## Node 명령어
+
+### Node 실행
+```
+node 
+```
+
+### Node 파일 실행
+```
+node test(파일명) 
+```
+
+
 ## Express
 Node 개발프레임워크
 
