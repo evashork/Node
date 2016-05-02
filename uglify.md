@@ -1,6 +1,6 @@
 ####uglify-js
 #####uglify-js 설치
-`npm install uglify-js -f`
+`npm install uglify-js -g`
 #####uglify-js 실행
 `uglifyjs app.js`
 #####uglify-js로 min 버전 만들기
