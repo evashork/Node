@@ -17,12 +17,12 @@ Node.js 개인 연습장 입니다.
 
 ## 유용한 npm 모음
 * [uglify-js](https://www.npmjs.com/package/uglify-js) - 소스코드 난독화
-* [express](https://www.npmjs.com/package/express) - 
+* [express](https://www.npmjs.com/package/express) - 웹프레임워크
+* [jade](https://jade-lang.com) - jade 템플릿
 * [nodemon](https://www.npmjs.com/package/nodemon) - node 서버
 * [underscore](http://underscorejs.org/) - 배열을 쉽게 사용가능
 
 ---
-
 
 ## Node 코드
 
