@@ -21,6 +21,7 @@ Node.js 개인 연습장 입니다.
 * [jade](https://jade-lang.com) - jade 템플릿
 * [nodemon](https://www.npmjs.com/package/nodemon) - node 서버
 * [underscore](http://underscorejs.org/) - 배열을 쉽게 사용가능
+* [supervisor](https://www.npmjs.com/package/supervisor) - 와치프로그램 소스 변경 감지
 
 ---
 
@@ -58,6 +59,40 @@ npm install underscore -g
 dependencies 의존성을 package.json에 추가 한다. 프로젝트에 필요한 모듈의 경우엔 --save 붙이는 게 좋다. 일시적으로 사용하는 모듈은  --save를 붙이지 않는다.
 ```
 npm install underscore --save
+```
+
+## express
+#### install
+```
+npm install express --save
+```
+
+## supervisor
+#### install
+```
+npm install supervisor -g
+```
+#### 실행하기
+```
+supervisor app               // node app
+```
+
+## jade
+#### install
+```
+npm install jade --save
+```
+#### jade 설정
+```
+app.set('view engine', 'jade');
+app.set('views','./views');             // jade 파일 폴더 설정
+app.locals.pretty = true;
+```
+
+## body-parser
+#### install
+```
+npm install body-parser --save
 ```
 
 
