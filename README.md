@@ -95,4 +95,11 @@ app.locals.pretty = true;
 npm install body-parser --save
 ```
 
+## multer
+파일 업로드 
+#### install
+```
+npm install multer --save
+```
+
 
